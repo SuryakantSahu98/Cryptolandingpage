@@ -1,0 +1,205 @@
+/* css reset */
+
+.material-icons{
+    font-size: 18px;
+}
+
+
+
+/* navbar styling */
+#navbar {
+    flex-direction: column;
+    padding: 0 0.5rem;
+}
+
+#logo img {
+    width: 90px;
+}
+
+#navbar ul li {
+    font-size: 0.6rem;
+}
+
+#navbar ul li a {
+    padding: 0.3em 0.9em;
+    border-radius: 36px;
+    margin: 0px 3px;
+}
+
+/* home section stylign */
+#home {
+    margin-bottom: 50px;
+}
+
+#home p {
+    font-size: 0.8rem;
+}
+
+
+/* email iput styling */
+#email-id input {
+    width: 40%;
+    height: 2.2rem;
+}
+
+#email-id button {
+    margin-left: -155px;
+}
+
+/* goals container styling */
+#goals-content {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 160px;
+    height: auto;
+}
+
+#goals-content-balanceimage,
+#goals-content-balanceimage img {
+    width: 150px;
+}
+
+#goals-content-balanceimage {
+    display: flex;
+    justify-content: center;
+}
+
+#goal-features {
+    padding-left: 0;
+}
+
+#goal-features p {
+    font-size: 0.6rem;
+}
+
+#goals-heading p,
+#advantages-heading p {
+    padding: 1.1em 2.8em;
+    font-size: 0.8rem;
+}
+
+.p-line img {
+    height: 3.1rem;
+}
+
+
+/* advantages container styling */
+
+#advantages-content {
+    flex-direction: column;
+}
+
+.advantages-box-contents p {
+    padding: 0 30px;
+    font-size: 0.6rem;
+}
+
+#advantages-content-p {
+    font-size: 0.6rem;
+    margin: 10px 0;
+}
+
+/* media query for screen smaller than 600px the advantage boxes will get another margin (adjusted margin) */
+@media screen and (max-width:600px) {
+    #advantages-content {
+        margin: 0 1.5rem;
+    }
+
+    #goals-content {
+        margin: 0 45px;
+    }
+
+    #email-id input {
+        width: 30%;
+    }
+}
+
+/* this is for form group as it was not looking good so i changes for 1000 pixels */
+
+@media screen and (max-width:1000px) {
+    #contact-container {
+        flex-direction: column;
+        justify-content: center;
+        margin: 90px 20px 0 20px;
+    }
+}
+
+/* contact container styling */
+
+#tagline {
+    font-size: 1rem;
+    padding: 40px 0;
+}
+
+#socialmedia-icons img {
+    margin: 0 20px 0 0;
+}
+
+
+
+.info p {
+    font-size: 0.6rem;
+    padding-left: 5px;
+}
+
+#contact-info {
+    padding: 0;
+}
+
+/* contact us form styling */
+#contact-us {
+    width: 280px;
+    padding: 80px 0;
+}
+
+.form-group {
+    margin: 10px 2px;
+}
+
+.form-group #first-name,
+.form-group #last-name,
+.form-group #email {
+    padding: 8px 0;
+    width: 100%;
+}
+
+#contact-us form {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+
+/* footer stying */
+
+.footer-element {
+    font-size: 0.5rem;
+}
+
+/* Utility classes */
+
+.btn {
+    font-size: 0.8rem;
+    width: 150px;
+    height: 30px;
+}
+
+.h1 {
+    font-size: 2.2rem;
+}
+
+.h2 {
+    font-size: 1.8rem;
+}
+
+.h3 {
+    font-size: 1.0rem;
+}
+
+.form-group input {
+    font-size: 0.8rem;
+}
+
+.top{
+    font-size: 0.6rem;
+}
